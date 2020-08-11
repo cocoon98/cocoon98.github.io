@@ -7,17 +7,20 @@
   
   <title>my_first_blog | Hexo</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <meta name="description" content="昨天刚刚用hexo搭建了个人网站，于是现在来写第一篇博客，因为没有接触过MarkDown，所以这一篇更多的是对hexo和markdown语法的尝试。这是一条斜体信息斜体粗体被删掉啦我有下划线哦创建一个脚注[^RUNOOB][^RUNOOB]:这是一个脚注。  第一项 第二项 第三项   第一项 第二项 第三项   第一项 第二项 第三项   第一项 第二项 第三项  列表嵌套  第一项 嵌套一 嵌">
+  <meta name="description" content="昨天刚刚用hexo搭建了个人网站，于是现在来写第一篇博客，因为没有接触过MarkDown，所以这一篇更多的是对hexo和markdown语法的尝试。这是一条斜体信息斜体粗体被删掉啦我有下划线哦创建一个脚注^RUNOOB  第一项 第二项 第三项   第一项 第二项 第三项   第一项 第二项 第三项   第一项 第二项 第三项  列表嵌套  第一项 嵌套一 嵌套二   第二项 嵌套一 嵌套二">
 <meta property="og:type" content="article">
 <meta property="og:title" content="my_first_blog">
 <meta property="og:url" content="http://yoursite.com/2020/08/09/my-first-blog/index.html">
 <meta property="og:site_name" content="Hexo">
-<meta property="og:description" content="昨天刚刚用hexo搭建了个人网站，于是现在来写第一篇博客，因为没有接触过MarkDown，所以这一篇更多的是对hexo和markdown语法的尝试。这是一条斜体信息斜体粗体被删掉啦我有下划线哦创建一个脚注[^RUNOOB][^RUNOOB]:这是一个脚注。  第一项 第二项 第三项   第一项 第二项 第三项   第一项 第二项 第三项   第一项 第二项 第三项  列表嵌套  第一项 嵌套一 嵌">
+<meta property="og:description" content="昨天刚刚用hexo搭建了个人网站，于是现在来写第一篇博客，因为没有接触过MarkDown，所以这一篇更多的是对hexo和markdown语法的尝试。这是一条斜体信息斜体粗体被删掉啦我有下划线哦创建一个脚注^RUNOOB  第一项 第二项 第三项   第一项 第二项 第三项   第一项 第二项 第三项   第一项 第二项 第三项  列表嵌套  第一项 嵌套一 嵌套二   第二项 嵌套一 嵌套二">
 <meta property="og:locale" content="en_US">
+<meta property="og:image" content="http://static.runoob.com/images/runoob-logo.png">
+<meta property="og:image" content="http://static.runoob.com/images/runoob-logo.png">
 <meta property="article:published_time" content="2020-08-09T15:57:03.000Z">
-<meta property="article:modified_time" content="2020-08-11T13:48:43.870Z">
+<meta property="article:modified_time" content="2020-08-11T17:29:09.948Z">
 <meta property="article:author" content="John Doe">
 <meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="http://static.runoob.com/images/runoob-logo.png">
   
     <link rel="alternate" href="/atom.xml" title="Hexo" type="application/atom+xml">
   
@@ -88,7 +91,7 @@
     
     <div class="article-entry" itemprop="articleBody">
       
-        <p>昨天刚刚用hexo搭建了个人网站，于是现在来写第一篇博客，因为没有接触过MarkDown，所以这一篇更多的是对hexo和markdown语法的尝试。<br><em>这是一条斜体信息</em><br><em>斜体</em><br><strong>粗体</strong><br><del>被删掉啦</del><br><u>我有下划线哦</u><br>创建一个脚注[^RUNOOB]<br>[^RUNOOB]:这是一个脚注。</p>
+        <p>昨天刚刚用hexo搭建了个人网站，于是现在来写第一篇博客，因为没有接触过MarkDown，所以这一篇更多的是对hexo和markdown语法的尝试。<br><em>这是一条斜体信息</em><br><em>斜体</em><br><strong>粗体</strong><br><del>被删掉啦</del><br><u>我有下划线哦</u><br>创建一个脚注<a href="%E8%BF%99%E6%98%AF%E4%B8%80%E4%B8%AA%E8%84%9A%E6%B3%A8%E3%80%82">^RUNOOB</a></p>
 <ul>
 <li>第一项</li>
 <li>第二项</li>
@@ -130,13 +133,31 @@
 </ul>
 </blockquote>
 <p><strong>列表中使用区块</strong></p>
-<ul>
-<li>第一项<blockquote>
-<p>菜鸟教程<br>学的不仅是技术更是梦想</p>
-</blockquote>
-</li>
+<h3 id="代码嵌入"><a href="#代码嵌入" class="headerlink" title="代码嵌入"></a>代码嵌入</h3><ul>
+<li>第一项  <figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line">   <span class="keyword">var</span> hcy = <span class="keyword">new</span> <span class="built_in">Object</span>();</span><br><span class="line">hcy.age = <span class="number">30</span>;</span><br><span class="line">hcy.height = <span class="number">172</span>;</span><br><span class="line">hcy.job = <span class="string">&quot;singer&quot;</span>;</span><br><span class="line"><span class="built_in">console</span>.log(hcy);</span><br><span class="line"><span class="built_in">console</span>.log(hcy.job);</span><br></pre></td></tr></table></figure></li>
 <li>第二项</li>
 </ul>
+<h3 id="链接"><a href="#链接" class="headerlink" title="链接"></a>链接</h3><p>这是一个B站的链接<a href="www.bilibili.com">Bilibili</a></p>
+<p>###图片<br><img src="http://static.runoob.com/images/runoob-logo.png" width="50%"><br><img src="http://static.runoob.com/images/runoob-logo.png" alt="RUNOOB 图标"></p>
+<h3 id="表格"><a href="#表格" class="headerlink" title="表格"></a>表格</h3><table>
+<thead>
+<tr>
+<th align="left">左对齐</th>
+<th align="right">右对齐</th>
+<th align="center">居中</th>
+</tr>
+</thead>
+<tbody><tr>
+<td align="left">单元格</td>
+<td align="right">单元格</td>
+<td align="center">单元格</td>
+</tr>
+<tr>
+<td align="left">单元格</td>
+<td align="right">单元格</td>
+<td align="center">单元格</td>
+</tr>
+</tbody></table>
 
       
     </div>
@@ -149,6 +170,15 @@
   
     
 <nav id="article-nav">
+  
+    <a href="/2020/08/12/%E5%AF%B9JavaScript%E5%87%BD%E6%95%B0%E6%8C%89%E5%80%BC%E4%BC%A0%E5%8F%82%E7%9A%84%E7%90%86%E8%A7%A3/" id="article-nav-newer" class="article-nav-link-wrap">
+      <strong class="article-nav-caption">Newer</strong>
+      <div class="article-nav-title">
+        
+          对JavaScript函数按值传参的理解
+        
+      </div>
+    </a>
   
   
     <a href="/2020/08/09/hello-world/" id="article-nav-older" class="article-nav-link-wrap">
@@ -169,9 +199,23 @@
 
   
     
+  <div class="widget-wrap">
+    <h3 class="widget-title">Tags</h3>
+    <div class="widget">
+      <ul class="tag-list" itemprop="keywords"><li class="tag-list-item"><a class="tag-list-link" href="/tags/JavaScript/" rel="tag">JavaScript</a></li></ul>
+    </div>
+  </div>
+
 
   
     
+  <div class="widget-wrap">
+    <h3 class="widget-title">Tag Cloud</h3>
+    <div class="widget tagcloud">
+      <a href="/tags/JavaScript/" style="font-size: 10px;">JavaScript</a>
+    </div>
+  </div>
+
   
     
   <div class="widget-wrap">
@@ -188,6 +232,10 @@
     <h3 class="widget-title">Recent Posts</h3>
     <div class="widget">
       <ul>
+        
+          <li>
+            <a href="/2020/08/12/%E5%AF%B9JavaScript%E5%87%BD%E6%95%B0%E6%8C%89%E5%80%BC%E4%BC%A0%E5%8F%82%E7%9A%84%E7%90%86%E8%A7%A3/">对JavaScript函数按值传参的理解</a>
+          </li>
         
           <li>
             <a href="/2020/08/09/my-first-blog/">my_first_blog</a>
